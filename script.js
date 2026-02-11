@@ -90,6 +90,7 @@ payrollTbody.addEventListener("click", function (e) {
 clearAllBtn.addEventListener("click", function() {
     payrollTbody.innerHTML = "";
     number = 1;
+    updateSummary();
 })
 
 function updateSummary() {
